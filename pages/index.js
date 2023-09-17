@@ -104,7 +104,7 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
               href="https://github.com/eidam/cf-workers-status-page"
               target="_blank"
             >
-              Get Your Status Page
+              获取你的web服务状态页面
             </a>
           </div>
         </div>
