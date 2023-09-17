@@ -37,3 +37,9 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+  - id: qye-admin-front
+    name: 青阳e社区管理员面板
+    url: 'https://jsjxye-zone.hbut.edu.cn'
+    method: GET
+    expectStatus: 200
