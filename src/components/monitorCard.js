@@ -51,7 +51,7 @@ export default function MonitorCard({ key, monitor, data }) {
       <MonitorHistogram monitorId={monitor.id} kvMonitor={data} />
 
       <div className="flex flex-row justify-between items-center text-gray-400 text-sm">
-        <div>{config.settings.daysInHistogram} 之前</div>
+        <div>{config.settings.daysInHistogram} 天之前</div>
         <div>今天</div>
       </div>
     </div>
