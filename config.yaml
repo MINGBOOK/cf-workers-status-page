@@ -9,8 +9,8 @@ settings:
   notAllmonitorsOperational: '有服务宕机'
   monitorLabelOperational: '正在运行'
   monitorLabelNotOperational: '宕机'
-  monitorLabelNoData: 'No data'
-  dayInHistogramNoData: 'No data'
+  monitorLabelNoData: '没有数据'
+  dayInHistogramNoData: '没有数据'
   dayInHistogramOperational: '一切正常'
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
