@@ -22,7 +22,7 @@ export default function MonitorStatusHeader({ kvMonitorsLastUpdate }) {
       <div className="flex flex-row justify-between items-center">
         <div>{text}</div>
         {kvMonitorsLastUpdate.time && typeof window !== 'undefined' && (
-          <div className="text-xs font-light">
+          <div className="text-x">
             检查于{' '}
             {Math.round((Date.now() - kvMonitorsLastUpdate.time) / 1000)} 秒
             前 (from{' '}
